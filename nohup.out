@@ -1,0 +1,35 @@
+[16:58:33] Using gulpfile ~/FreeCodeCamp/gulpfile.js
+[16:58:34] Starting 'less'...
+[16:58:34] Starting 'serve'...
+[16:58:34] Starting 'js'...
+[16:58:36] [nodemon] 1.11.0
+[16:58:36] [nodemon] to restart at any time, enter `rs`
+[16:58:36] [nodemon] watching: *.*
+[16:58:36] [nodemon] starting `/home/trung.gm.vn/FreeCodeCamp/node_modules/.bin/babel-node ./server/server.js`
+[16:58:36] Finished 'serve' after 1.98 s
+events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+    at Error (native)
+Wed, 07 Dec 2016 16:58:47 GMT fcc:user:remote setting up user hooks
+Wed, 07 Dec 2016 16:59:11 GMT strong-remoting deprecated The built-in CORS middleware provided by REST adapter was deprecated. See https://docs.strongloop.com/display/public/LB/Security+considerations for more details. at node_modules/strong-remoting/lib/remote-objects.js:97:25
+Wed, 07 Dec 2016 16:59:11 GMT loopback-explorer deprecated The built-in CORS middleware provided by loopback-component-explorer was deprecated. See https://docs.strongloop.com/display/public/LB/Security+considerations for more details. at server/boot/explorer.js:22:3
+Error: listen EADDRINUSE :::81
+    at Object.exports._errnoException (util.js:1026:11)
+    at exports._exceptionWithHostPort (util.js:1049:20)
+    at Server._listen2 (net.js:1257:14)
+    at listen (net.js:1293:10)
+    at Server.listen (net.js:1389:5)
+    at EventEmitter.app.listen (/home/trung.gm.vn/FreeCodeCamp/node_modules/loopback/lib/application.js:585:19)
+    at EventEmitter.<anonymous> (/home/trung.gm.vn/FreeCodeCamp/server/server.js:50:7)
+    at EventEmitter.start (/home/trung.gm.vn/FreeCodeCamp/node_modules/lodash/lodash.js:10052:25)
+    at Object.<anonymous> (/home/trung.gm.vn/FreeCodeCamp/server/server.js:70:7)
+    at Module._compile (module.js:570:32)
+    at loader (/home/trung.gm.vn/FreeCodeCamp/node_modules/babel-register/lib/node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (/home/trung.gm.vn/FreeCodeCamp/node_modules/babel-register/lib/node.js:154:7)
+    at Module.load (module.js:487:32)
+    at tryModuleLoad (module.js:446:12)
+    at Function.Module._load (module.js:438:3)
+    at Function.Module.runMain (module.js:604:10)
